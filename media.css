@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #424242;
+    color: white;
+}
+
+header h1 {
+    margin: 0.5rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #363636;
+}
+
+.about-me, .hobbies, .favourites, .skills, footer, address {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3d3d3d;
+    border-bottom: 2px solid #4e4e4e;
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.song-video iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #3a3a3a;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+.scroll-to-top {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #3d3d3d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.scroll-to-top:hover {
+    background-color: #313131;
+}
+
+.details{
+    color: #2e2e2e; 
+}
